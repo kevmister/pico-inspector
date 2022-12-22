@@ -1,0 +1,62 @@
+.pin-viewer-wrapper.init {
+  background-color: #0000;
+  backdrop-filter: blur(0);
+}
+
+.pin-viewer-wrapper {
+  position: fixed;
+  inset: 0;
+  background-color: #0005;
+  backdrop-filter: blur(1rem);
+  transition: background-color 150ms, backdrop-filter 150ms;
+}
+
+.pin-viewer-wrapper.init .pin-viewer {
+  scale: 0;
+}
+
+.pin-viewer {
+  position: relative;
+  --width: 40rem;
+  --height: 40rem;
+  width: var(--width);
+  height: var(--height);
+  background: white;
+  margin-left: calc(50vw - (var(--width)/2));
+  margin-top: calc(50vh - (var(--height)/2));
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+  scale: 1;
+  transition: scale 150ms;
+}
+.pin-viewer-title {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+.pin-viewer-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.row {
+
+}
+
+.row .label {
+  display: inline-block;
+  height: 1rem;
+  width: 6rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+.row .input {
+  display: inline-block;
+}
+
+.row .input button,
+.row .input select {
+  margin-right: 1rem;
+}
