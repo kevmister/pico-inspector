@@ -41,6 +41,13 @@
   right: 1rem;
 }
 
+.pin-viewer-loading {
+  position: absolute;
+  inset: 4rem 0 0 0;
+  background: white;
+  text-align: center;
+}
+
 .row {
 
 }
@@ -48,9 +55,10 @@
 .row .label {
   display: inline-block;
   height: 1rem;
-  width: 6rem;
+  width: 10rem;
   padding: 1rem;
   font-weight: bold;
+
 }
 .row .input {
   display: inline-block;
