@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pico-inspector/static/css/main.60204327.css",
-    "main.js": "/pico-inspector/static/js/main.3aaaefec.js",
+    "main.css": "/pico-inspector/static/css/main.3ab3e7db.css",
+    "main.js": "/pico-inspector/static/js/main.6635010e.js",
     "static/media/pico-pinout.svg": "/pico-inspector/static/media/pico-pinout.7458aba191d98265eecd6209799dc2ab.svg",
     "index.html": "/pico-inspector/index.html",
-    "main.60204327.css.map": "/pico-inspector/static/css/main.60204327.css.map",
-    "main.3aaaefec.js.map": "/pico-inspector/static/js/main.3aaaefec.js.map"
+    "main.3ab3e7db.css.map": "/pico-inspector/static/css/main.3ab3e7db.css.map",
+    "main.6635010e.js.map": "/pico-inspector/static/js/main.6635010e.js.map"
   },
   "entrypoints": [
-    "static/css/main.60204327.css",
-    "static/js/main.3aaaefec.js"
+    "static/css/main.3ab3e7db.css",
+    "static/js/main.6635010e.js"
   ]
 }
